@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <br> 
+    
+    <section id="home" class="home-section">
+        <img src="images/woman-light-brown-skin-long-dark-curly-hair-with-black-cat.png">
+      <br>
+      <h1>Hi &#128075;</h1>
+      <h1>I'm Chizalu,<br> a Student Web Developer</h1>
+      <p>
+          I am a student who is just starting out in web development.<br>
+          As a beginner, I am learning the fundamentals of web technologies 
+          <br>like HTML, CSS, and JavaScript.<br>
+          I’m excited to build a strong foundation in creating interactive <br> 
+          and visually appealing websites.<br>
+          I’m eager to continue exploring and growing my skills in this field, 
+          <br>and I’m looking forward to the journey ahead.
+      </p>
+      <button><a href="#projects" class="Work">See My Work</a></button>
+  </section>
+
+  <br>
+  <br>
+  
+
+
+  <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>I am a student who is just starting out in web development.
+        As a beginner, I am learning the fundamentals of web technologies like HTML, CSS, and JavaScript.
+        I am passionate about understanding how websites are built and how to make them interactive, user-friendly, and visually appealing.
+        
+        I’m excited to explore various aspects of web development, from front-end design to back-end functionality. My goal is to combine creativity with problem-solving to develop websites that stand out and provide value to users.
+        
+        While I’m currently focusing on mastering the basics, I am always curious to learn about new tools, frameworks, and trends in the tech world. I believe that each project I take on will not only help me improve my skills but also allow me to discover my unique style as a developer.
+        
+        I’m eager to continue growing, embracing challenges, and staying motivated as I work toward becoming a skilled web developer. This journey is just the beginning, and I’m excited to see where it takes me!</p>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-gallery">
+      <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A simple calculator for basic arithmetic operations 
+            <br>like addition, subtraction, multiplication, and division</p>
+        <!-- Add an image for this project -->
+        <img src="images/—Pngtree—hand drawn black calculator illustration_4552458.png" alt="Calculator Project Image">
+      </div>
+
+      <div class="project-card">
+        <h3>Color Picker</h3>
+        <p>A tool that allows users to select and preview colors 
+            <br>using a color wheel or input values for precise color choices.</p>
+        <!-- Add an image for this project -->
+        <img src="images/color-picker.png" alt="Color Picker Project Image">
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+      </form>
+  </section>
+
+  <footer>
+      <p>&copy; 2025 Chizalu. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
